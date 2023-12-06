@@ -1,0 +1,97 @@
+body {
+    font-family: "PT Sans", "Arial", sans-serif;
+    background-color: white;
+}
+/*header*/
+.page-header {
+    /*position: center;*/
+    background-image: url("background_image.png");
+    background-color: black;
+    border: 0px solid darkslategray;
+    background-size: 100% 100%;
+    /*box-shadow: 0 0 5px 0 #333333;*/
+    border-radius: 0px;
+    min-height: 155px;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:50px;
+}
+
+
+/*main*/
+main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: sans-serif;
+    letter-spacing: normal;
+    margin: 0px;
+    color: white;
+}
+p {
+    font-family: sans-serif;
+    letter-spacing: normal;
+    margin-bottom: 0;
+    text-align: justify;
+    color:white;
+}
+article {
+    background-color: #d9072c;
+    border-radius: 0px;
+    box-shadow: 0 0 5px 0 #333333;
+    border: 0,5px solid darkslategray;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 10px;
+}
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+aside {
+    float: left;
+    width: 45%;
+    border-radius: 30px;
+}
+section {
+    float: right;
+    width: 55%;
+}
+.blocks {
+    display: flow;
+}
+.block {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+/*footer*/
+.page-footer {
+    position: inherit;
+    background-color: black;
+    border: 0,5px solid darkslategray;
+    box-shadow: 0 0 5px 0 #333333;
+    margin-bottom: 5px;
+}
+li {
+    text-align: center;
+    list-style-type: none; /* Убираем маркеры */
+    color: black;
+    margin: 5px;
+    color:white
+   }
+ul {
+    padding: 20px;
+}
